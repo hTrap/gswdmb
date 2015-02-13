@@ -97,12 +97,12 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
-MEDIA_ROOT = root("..", "..", "uploads")
+MEDIA_ROOT = root("..", "uploads")
 
 MEDIA_URL = ''
 
 
-STATIC_ROOT = root("..", "..", "static")
+STATIC_ROOT = root("..", "static")
  
 STATIC_URL = '/static/'
 
