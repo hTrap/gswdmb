@@ -1,5 +1,7 @@
 {% extends "_layouts/base.html" %}
 
 {% block page_content %}
-<a href="{% url 'blog:list' %}">Read my Blog</a>
+<div class="row-fluid">
+    <a href="{% url 'blog:list' %}" class="btn">Read my Blog</a>
+</div>
 {% endblock %}
