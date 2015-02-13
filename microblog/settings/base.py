@@ -54,7 +54,9 @@ DJANGO_APPS = (
 
 THIRD_PARTY_APPS = ()
 
-LOCAL_APPS = ()	
+LOCAL_APPS = (
+    'blog',
+)	
 
 INSTALLED_APPS = DJANGO_APPS +THIRD_PARTY_APPS + LOCAL_APPS
 
@@ -95,9 +97,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
-MEDIA_ROOT = root("..", "uploads")
+#MEDIA_ROOT = root("..", "uploads")
 
-MEDIA_URL = ''
+#MEDIA_URL = ''
 
 
 STATIC_ROOT = root("..", "static")
